@@ -1,9 +1,79 @@
 body {
     margin:0;
     padding:0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition:all 2s;
-    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    margin: 0;
+}
+
+html, body {
+    width: 1366px;
+    height: 768px;
+   }
+
+header{
+    background-color: darkgrey;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 30px;
+   
+}
+
+main{
+    background-color: cadetblue;
+}
+
+footer{
+    background-color: rgb(14, 223, 14);
+}
+
+.nav{
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-padding{
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+}
+
+li{
+    display: inline;
+    border-right: 2px solid #424040;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+li:last-child {
+    border-right:0;
+} 
+
+.search-bar{
+    position:relative; left:1100px; top:0px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+input{
+    padding: 3px;
+}
+
+button {
+    padding: 3px;
+}
+
+.subnav-container{
+    background-color: lightgrey;
+    padding: 10px;
 }
 
 

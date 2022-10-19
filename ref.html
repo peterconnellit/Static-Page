@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./test.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="https://kit.fontawesome.com/1f2f29a838.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Awesome Widgets Co.</h1>
+            <nav>
+                <label id="openMenu" for="openMenu2">
+
+                    <i id="hamburger" class="fas fa-bars"></i>
+                    <input type="checkbox" style="display:none" name="openMenu2" id="openMenu2">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li class="basket"><a href="">Basket</a></li>
+                    </ul>
+                </label>
+            </nav>
+            <section class="search-header">
+                <h2>Get the best products here</h2>
+                <form action="search" method="post">
+                    <fieldset>
+                        <legend>Search</legend>
+                        <label for="searchBox">Search for products</label>
+                        <input type="text" name="search" id="searchBox">
+                        <input type="submit" value="Search">
+                    </fieldset>
+                </form>
+            </section>
+        </header>
+        <main>
+            <article class="product-information">
+                <section class="product-images">
+                    <h3>Product images</h3>
+                    <figure>
+                        <img src="https://via.placeholder.com/520" alt="">
+                        <figcaption>
+                            Main product image
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img class="thumb" src="https://via.placeholder.com/150/ddd" alt="">
+                        <img class="thumb" src="https://via.placeholder.com/150/ddd" alt="">
+                        <img class="thumb" src="https://via.placeholder.com/150/ddd" alt="">
+                    </figure>
+                </section>
+                <section class="product-description">
+                    <h3>Product Description</h3>
+                    <h2>Title for amazing product</h2>
+                    <hr>
+                    <section class="price">
+                        <h3>Price</h3>
+                        <h2> Only £99.99</h2>
+                    </section>
+                    <hr>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <hr>
+                    <aside class="rating">
+                        <span class=stars>
+                            <i class="fas fa-star gold"></i>
+                            <i class="fas fa-star gold"></i>
+                            <i class="fas fa-star gold"></i>
+                            <i class="fas fa-star gold"></i>
+                            <i class="fas fa-star grey"></i>
+                        </span>
+                        <span class="rated">Rated 4 stars by our customers
+                        </span>
+                        <button> Add your rating</button>
+                    </aside>
+                    <hr>
+                    <section class="add-to-basket">
+                        <h3>Add to basket</h3>
+                        <button>Add to basket</button>
+                    </section>
+                </section>
+            </article>
+            <article class="similar-products">            
+                <h2>Similar products</h2>
+                <section class="similar-container" >
+                    <div class ="items">
+                        <div class="item-images">
+                            <img class="thumb" src="https://via.placeholder.com/180x120/ddd" alt="">
+                        </div>
+                        <div class="item-description">
+                            <p>PRODUCT NAME</p>
+                            <span class=stars>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star grey"></i>
+                                <i class="fas fa-star grey"></i>
+                            </span>
+                            <p>$300</p>
+                        </div>
+                        <div class="item-images">
+                            <img class="thumb" src="https://via.placeholder.com/180x120/ddd" alt="">
+                        </div>
+                        <div class="item-description">
+                            <p>PRODUCT NAME</p>
+                            <span class=stars>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star grey"></i>
+                                <i class="fas fa-star grey"></i>
+                            </span>
+                            <p>$300</p>
+                        </div>
+                        <div class="item-images">
+                            <img class="thumb" src="https://via.placeholder.com/180x120/ddd" alt="">
+                        </div>             
+                        <div class="item-description">
+                            <p>PRODUCT NAME</p>
+                            <span class=stars>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star grey"></i>
+                                <i class="fas fa-star grey"></i>
+                            </span>
+                            <p>$300</p>
+                        </div>
+                    </div> 
+                </section>   
+            </article>
+            <article class="review-section">
+                <h2>Reviews</h2>
+                <section class="reviews">    
+                    <div class="sole-review" >
+                        <img class="review-icon" src="https://via.placeholder.com/120/ddd" alt="">  
+                        <div class="person">
+                            <h3>JOHN DOE</h3>                        
+                            <p>august 14, 2018</p>                        
+                            <span class=stars>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star grey"></i>
+                                <i class="fas fa-star grey"></i>
+                            </span>
+                        </div>                                               
+                    </div>
+                    <div  class="review-description">
+                        <p class="small-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>                
+                </section>
+                <section class="reviews">    
+                    <div class="sole-review" >
+                        <img class="review-icon" src="https://via.placeholder.com/120/ddd" alt="">  
+                        <div class="person">
+                            <h3>JOHN DOE</h3>                        
+                            <p>august 14, 2018</p>                        
+                            <span class=stars>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star gold"></i>
+                                <i class="fas fa-star grey"></i>
+                                <i class="fas fa-star grey"></i>
+                            </span>
+                        </div>                                               
+                    </div>
+                    <div  class="review-description">
+                        <p class="small-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>                
+                </section>
+            </article>
+        </main>
+        <footer>
+            <nav>
+                <ul class="footer-list">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Shop</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-copyright"></i><span><small> Your Company Name</small></p></span>
+        </footer>
+    </div>
+</body>
+
+</html>
